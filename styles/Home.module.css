@@ -1,0 +1,70 @@
+.hero {
+ text-align: center;  
+ padding: 40px 0;
+ margin-bottom: 40px; 
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #0070f3, #00c4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.2 rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.postGrid {
+    display: grid;
+    gap: 20px;
+}
+
+.postCard {
+    border: 1px solid #eaeaea;
+    padding: 25px;
+    border-radius: 10px;
+    background: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.postCard:hover {
+    transform: translate(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.postTitle {
+    color: #0070f3;
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.postDate {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.postExcerpt {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.readMore {
+    display: inline-block;
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.readMore:hover {
+    color:#0051a8;
+}
